@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import { TextInput } from 'react-native';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 export default function App() {
@@ -45,7 +46,10 @@ https://www.bibliaonline.com.br/acf/gn/1/1-31+
         </Text>
 
       </ScrollView>
-      <Text>Open up App.js to start working on your app!</Text>
+     <TextInput placeholder= 'sophiag.morais444@gmail.com'></TextInput>
+
+     <Button title= 'Botão' onpress={''}/>
+     
     </View>
   );
 }
